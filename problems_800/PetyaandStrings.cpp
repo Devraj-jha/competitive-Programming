@@ -32,3 +32,8 @@ int main(){
   return 0;
   
 }
+
+//String in cpp are compared lexiographically
+// to lower it only words on char
+//So i learned new type of function
+//for(char )
