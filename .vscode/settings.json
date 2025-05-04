@@ -1,6 +1,14 @@
 {
   "files.associations": {
     "xstring": "cpp",
-    "iostream": "cpp"
+    "iostream": "cpp",
+    "ios": "cpp",
+    "ostream": "cpp"
+  },
+  "github.copilot.enable": {
+    "*": false,
+    "plaintext": false,
+    "markdown": false,
+    "scminput": false
   }
 }

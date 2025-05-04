@@ -1,24 +1,26 @@
 #include <iostream>
+#include <vector>
 using namespace std;
 
 int main(){
 
-int n,k;
-cin>>n;
-cin>>k;
-int sn = 0;
+  int n,k,cn = 0;
+  cin>>n>>k;
+  vector<int> arr(n);
 
-int score[50];
-
-for(int i = 0; i< n; i++){
-  cin>>score[i];
-  
-}
-
-for(int i = 0; i < n ; i++){
-  if(score[i]>=score[k] && score[k]>0){
-    sn++;
+  for(int i =0 ; i<n; i ++){
+    cin>>arr[i];
   }
-}
-cout<<sn;
+
+  for(int i = 0; i<n; i++ ){
+    if(arr[i]>= arr[k - 1] ){
+      if(arr[i]>0){
+        cn++;
+      }
+    }
+  }
+
+  cout<<cn;
+  
+  return 0;
 }
