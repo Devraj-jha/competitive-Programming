@@ -1,0 +1,22 @@
+ok till now i have learned basic struture of cpp 
+file 
+i understand abt 
+=> input output
+=> cout and cin 
+=> basic time complexity
+=> conditional statements
+=> BASIC array and vectors
+=> for loop
+=> various data types
+=> sorting vectors in asceding and decending
+=>strings how to create strings
+ ##string looping
+ ##basic string function
+ => I now know how to create functions
+ ##user defined function
+ ##return type of func.
+ ##passing function by value and refrence
+ Now i will start studying data structures
+ ==>pair 
+==>
+i AM LEARNING <sstream> now  
