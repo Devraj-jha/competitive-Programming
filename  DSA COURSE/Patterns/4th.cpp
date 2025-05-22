@@ -1,4 +1,13 @@
 
+// 4
+// 1
+// 12
+// 123
+// 1234
+
+
+
+
 #include <iostream>
 using namespace std;
 
