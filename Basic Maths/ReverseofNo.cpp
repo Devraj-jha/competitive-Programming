@@ -1,14 +1,17 @@
 #include <iostream>
 using namespace std;
-#define owner 11
+
 int main(){
 
-typedef long long ll;
+int n;
+cin>>n;
+while(n>0){
 
-cout<<owner;
+  int las = n%10;
+  
+}
 
-ll p = 111;
- 
+
   
   return 0;
 }
