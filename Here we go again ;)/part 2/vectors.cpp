@@ -26,4 +26,11 @@ int main(){
         cout<< x << " ";
     }
 
+
+    //some more methods
+    v.size(); //number of elements
+    v.empty(); //checks if vecotr is empty
+    v.clear(); //remvoe all elemetns
+    
+
 }

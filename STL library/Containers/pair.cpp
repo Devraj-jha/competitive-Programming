@@ -4,6 +4,8 @@
 using namespace std;
 
 int main(){
+
+
     pair<int,int> p ={3,4};
     cout<<p.first <<" "<< p.second<<endl;
 
@@ -14,6 +16,15 @@ int main(){
 
     cout<<np.second.first; 
 
+   
     //we can also declare an array of paris
-    pair<int,int> arr[2]= {{1,3}, {2,4}}
+   
+   
+    pair<int,int> arr[2]= {{1,3}, {2,4}};
+
+
+
+
+    
+
 }
