@@ -13,6 +13,14 @@ const int x = 10;
 //use const & for large parameters to avoid copies
 
 //when 
+//constexpre
+//as const  is not strict enough. 
+//if we want to make sure hte value is know befor the progremmee run 
+// we use constexpr.
+
+constexpr int x = 4;
+// constexpr int y = rand() this will give erorr
+
 
 
 
