@@ -16,13 +16,22 @@ i understand abt
  ##user defined function
  ##return type of func.
  ##passing function by value and refrence
- Now i will start studying data structures
- ==>pair 
-==>
+ 
  
  //Why i am learning cpp..
  because it is useful lang.
  It gives me good contorlof things
 
- I can create low level stuff. and 
- games and 
+
+
+ >>const the immutable qualifier.
+
+ when you run a cpp code,
+ there are two main times when things can be computed;
+
+ compile time => when complier is turning .cpp => bin
+ run time => when programe is actually running 
+
+ if something is evaluted at complie time, 
+ code runs faster. compiler tries to figure out its value 
+ before,
