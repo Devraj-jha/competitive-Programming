@@ -1,0 +1,63 @@
+25/08/25
+
+//a way of looking, at problems by imagining the world.
+oops. => 
+        =>procedural programming, data(method) + behaviours(method).
+        ex - for student, attributes -> name, roll number, marks,
+            => behaviours => study, give exam
+
+oops => it is the programming, paradigm, that implements, object oritend thinking using 
+c#, cpp, java
+encapuslation, abstraction, inheritance, polymorphism, -> main pillars,
+
+encapuslation, => wrapping data and methods together,
+abstraction => showing only essential data
+inheritance => returning properties and behaviours
+polymorphism = same action can behave differently 
+
+oops thinking -> this is the mindset of way of analysising.
+oops programming => pratcial coding apporach on that behaivour.
+
+comparison between 
+oops            
+programming done by creating object.
+(2) data and functions are kept toegther inside the class.
+(3)java, python, cpp
+(4)more secure
+(5)code resuablity through inheritance and polmorphism .
+(6) easier to manage large and complex project'
+
+
+Procedural programming.
+(1) programming is done by functions that operates on data. 
+(2) Data and functions are kept separately.
+(3) ex - c, paskal, fortan
+(4) programe is divide into funciton 
+(5) less secure
+(6) code resuablity through function only.
+(7) complex for large project.
+
+Features of oops paradigm, 
++> objects, classes, encapsulation,abstraction, inheritance, polmorphism , message passing, 
+modularity,
+Advantage --> real world modelling, reusablity, scablitity and maintainable. 
+              data secrutiy, flexibility, productivity, team collabration, 
+
+Disadvantage --> complexity, slower execution, memory usage, not always suitable.
+
+
+process of taking data and showing results.
+in object oriented program. input and output are handled through object and classes.
+cin >> , cout << ,
+cpp uses cin = standarad input , cout => standard output.
+
+in java,
+java provides classes and methods for input output.
+system.out.println = used for output
+standard input steam
+encapsulation = input output handeled via objects
+polymorphism= operator and functions work with multiple data type
+reusability= input output classes can be used in multiple programs 
+simple and user friendly, works consistently with all data types
+object oriented design that can be easy to extend,
+error handling is easier

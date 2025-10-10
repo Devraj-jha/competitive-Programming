@@ -2,14 +2,15 @@
 using namespace std;
 
 int main(){
-             
-ios::sync_with_stdio(false);
-cin.tie(NULL);
 
 
+  int n;
 
+  n = 4; //assignment operator, 
 
+  if(n == 4) {
+    cout <<"True"
+  }
 
   return 0;
 }
-

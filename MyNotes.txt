@@ -35,3 +35,7 @@ i understand abt
  if something is evaluted at complie time, 
  code runs faster. compiler tries to figure out its value 
  before,
+
+
+
+

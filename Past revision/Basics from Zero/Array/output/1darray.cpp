@@ -18,6 +18,7 @@ int main(){
   cout<<sizeof(number) <<endl;
   cout<<sizeof(number[0])<<endl;
 
+
   int n = sizeof(number)/sizeof(number[0]);
 
   cout<<n<<endl;
