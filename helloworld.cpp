@@ -4,13 +4,14 @@ using namespace std;
 int main(){
 
 
-  int n;
+  int a;
+  a = 4;
+   int *p = &a;
 
-  n = 4; //assignment operator, 
+  cout << &a << endl;
 
-  if(n == 4) {
-    cout <<"True"
-  }
-
+  cout << &p << endl;
+  cout << a << endl;
+  cout << p << endl;
   return 0;
 }
