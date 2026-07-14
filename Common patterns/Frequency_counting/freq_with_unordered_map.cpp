@@ -7,15 +7,17 @@
 using namespace std;
 
 int main(){
-     vector<int> v = {2,2,2,3,3,3,3,1,1,1,1,29};
-     unordered_map<int,int> freq; 
-     
-     for(int x : v){
-        freq[x]++; 
+unordered_map <int, int> u; 
+vector<int > v = {1,2,3,3,2,2,1,1,1,-1,-2,-2}
+;
+for(auto i : v){
+   u[i]++;
 
-     }
-     for(auto p : freq){
-        cout << p.first << "->" << p.second << endl; 
-     }
+}
+for(auto i : u){
+   cout << i.first << " " << i.second; 
+   cout << endl;
+}
+
 
 }
