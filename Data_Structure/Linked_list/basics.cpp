@@ -4,20 +4,20 @@
 #include <iostream>
 using namespace std; 
 
-struct Node {
-    int data;
-    Node* next;
-    Node(int val){
-        data = val;
+struct ListNode {
+    int val; 
+    ListNode *next; 
+    
+    ListNode( int x ){
+        val = x; 
         next = nullptr;
-    }
+    };
+    // node contains pointers to next node and value..
+
+
 };
-
 int main(){
-    Node* first = new Node(10);
-
-    first->next = new Node(20);
-    first ->next->next = new Node(30);
-
-    Node* temp = first;
+    ListNode* head; 
+    ListNode* curr = head; 
+    
 }
