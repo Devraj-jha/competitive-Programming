@@ -25,4 +25,13 @@ int main(){
     newNode->next = head; 
     head = newNode;
 
+
+    Node* temp = head;
+
+while(temp->next != nullptr)
+{
+    temp = temp->next;
+}
+
+temp->next = new Node(40);
 }
