@@ -2,27 +2,28 @@
 using namespace std; 
 
 struct Node{
-    int data; 
-    Node* next; 
+   int data;
+    Node* next ; 
 
-    Node(int val ){
+    Node(int val){
         data = val; 
         next = nullptr;
     }
 };
 
 int main(){
-    Node* head = new Node(10);
-    Node* first = new Node(20);
-    Node* second = new Node(30);
+  Node* head = new Node(10);
+  Node* second = new Node(20);
+  Node* t = new Node(30);
 
-    head->next = first; 
-    first->next = second;
+  head->next = second;
+  second->next = t;
 
-    Node* temp = head;
-    while(temp != nullptr){
-        cout << temp->data << " ";
-        temp = temp->next;
-        
-    }
+
+  Node* tem = head;
+  while(tem != nullptr){
+    cout << tem->data << " ";
+
+    tem = tem->next;
+  }
 }
