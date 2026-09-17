@@ -1,5 +1,0 @@
-algorithms
-contaniers
-functions
-iterators
-4 things are part of stl library

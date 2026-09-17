@@ -1,0 +1,47 @@
+time complexity -> how much amount of works increases as the input increases.
+
+Space Complexity -> how much extra space as n grows.
+
+how does growth rate we are trying to calculate to be precise.
+
+big - o Notation 
+calculates upper limit
+
+big - omega 
+-> best case scenario. lower bound.
+
+Big thetha -> tight bound. average or tight bound both upper and lower 
+
+O(1) -> int sum a + b 
+
+O(log n)
+O(n) -> how many times this loops run.
+
+O(n log n)
+O(n²) -> nested
+And some in some.
+O(n³)
+O(2ⁿ)
+O(n!)
+
+always take the biggest complexity
+nested loops aren't always 0(n square)
+
+for recursion how many calls are happening.
+
+| Code pattern           |        Complexity |
+| ---------------------- | ----------------: |
+| `x++`                  |              O(1) |
+| loop `0 → n`           |              O(n) |
+| loop `i *= 2`          |          O(log n) |
+| loop `i /= 2`          |          O(log n) |
+| two sequential n-loops |              O(n) |
+| two nested n-loops     |             O(n²) |
+| n-loop × log-loop      |        O(n log n) |
+| three nested n-loops   |             O(n³) |
+| recursion `n → n-1`    |              O(n) |
+| recursion `n → n/2`    |          O(log n) |
+| two recursive branches | potentially O(2ⁿ) |
+
+
+1 - 2>>
