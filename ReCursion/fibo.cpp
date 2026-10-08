@@ -39,6 +39,29 @@ int powe(int n, int x){
 
     return n * powe(n,x -1 );
 }
+
+string revstring(string s ){
+    
+    if(s.length() <= 1){
+        return s; 
+
+    }
+    return revstring(s.substr(1)) + s[0];
+}
+
+
+bool isPalidrome(string s, int left, int right){
+
+    if(left>= right){
+        return true;
+    }
+
+    if(s[left] != s[right]){
+        return false;
+    }
+
+    return isPalidrome(s, left + 1 , right - 1);
+}
 int main() {
     ios::sync_with_stdio(false);
     cin.tie(nullptr);
